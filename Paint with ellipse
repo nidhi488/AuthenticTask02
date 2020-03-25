@@ -1,0 +1,18 @@
+function setup() {
+  createCanvas(850, 800);
+     background(230);
+    noStroke();
+    
+}
+
+function draw() {
+    if (mouseIsPressed)
+
+    fill(0,0,0,200);
+    if (mouseIsPressed)
+
+    ellipse(mouseX,mouseY,30,30);
+}        
+function doubleClicked() {
+    background(230);
+}
